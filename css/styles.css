@@ -1,0 +1,130 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
+.body {
+  color: #212121;
+  background-color: #f5f5f5;
+
+  font-family: Roboto, sans-serif;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14x;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+  list-style: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*section*/
+
+.section-title {
+  color: #212121;
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-user {
+  color: #212121;
+
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.section-text {
+  color: #757575;
+
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* -------------------------hero----------------*/
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-button {
+  color: #f5f5f5;
+  background-color: var(--accent-color);
+  font-family: inherit;
+}
+
+/*----------heder----------*/
+
+.header {
+  background-color: #ffffff;
+}
+
+.header-logo {
+  color: #2196f3;
+  font-family: Raleway, cursive;
+
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+}
+
+.info {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.info:hover,
+.info:focus {
+  color: var(--accent-color);
+}
+/*-----------footer----------*/
+.fotter {
+  background-color: #2f303a;
+}
+
+.footer-info {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+  font-family: inherit;
+
+  font-weight: 500;
+  line-height: 1.62;
+
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--title-text-color);
+  background-color: var(--accent-color);
+}
