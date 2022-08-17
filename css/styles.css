@@ -44,11 +44,41 @@
   letter-spacing: 0.03em;
 }
 
+.logo-user {
+  color: #212121;
+
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.section-promo {
+  color: #212121;
+
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 .section-text {
   color: #757575;
 
   font-weight: 400;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.logo-text {
+  color: #757575;
+
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  color: #757575;
+
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
 /* -------------------------hero----------------*/
